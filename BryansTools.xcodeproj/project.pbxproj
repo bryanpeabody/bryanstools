@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C824BE72BDC3A9B009DB2FD /* TempConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BE62BDC3A9B009DB2FD /* TempConversionView.swift */; };
+		4C824BE92BDC3AF0009DB2FD /* PercentChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BE82BDC3AF0009DB2FD /* PercentChangeView.swift */; };
+		4C824BEB2BDC3B5F009DB2FD /* PercentIncrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BEA2BDC3B5F009DB2FD /* PercentIncrease.swift */; };
+		4C824BED2BDC4138009DB2FD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BEC2BDC4138009DB2FD /* Utils.swift */; };
 		4CA184152BDC059B00C0F57F /* BryansToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA184142BDC059B00C0F57F /* BryansToolsApp.swift */; };
 		4CA184172BDC059B00C0F57F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA184162BDC059B00C0F57F /* ContentView.swift */; };
 		4CA184192BDC059C00C0F57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA184182BDC059C00C0F57F /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C824BE62BDC3A9B009DB2FD /* TempConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConversionView.swift; sourceTree = "<group>"; };
+		4C824BE82BDC3AF0009DB2FD /* PercentChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeView.swift; sourceTree = "<group>"; };
+		4C824BEA2BDC3B5F009DB2FD /* PercentIncrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentIncrease.swift; sourceTree = "<group>"; };
+		4C824BEC2BDC4138009DB2FD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		4CA184112BDC059B00C0F57F /* BryansTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BryansTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA184142BDC059B00C0F57F /* BryansToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BryansToolsApp.swift; sourceTree = "<group>"; };
 		4CA184162BDC059B00C0F57F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 			children = (
 				4CA184142BDC059B00C0F57F /* BryansToolsApp.swift */,
 				4CA184162BDC059B00C0F57F /* ContentView.swift */,
+				4C824BEC2BDC4138009DB2FD /* Utils.swift */,
+				4C824BE82BDC3AF0009DB2FD /* PercentChangeView.swift */,
+				4C824BEA2BDC3B5F009DB2FD /* PercentIncrease.swift */,
+				4C824BE62BDC3A9B009DB2FD /* TempConversionView.swift */,
 				4CA184182BDC059C00C0F57F /* Assets.xcassets */,
 				4CA1841A2BDC059C00C0F57F /* Preview Content */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				4CA184172BDC059B00C0F57F /* ContentView.swift in Sources */,
 				4CA184152BDC059B00C0F57F /* BryansToolsApp.swift in Sources */,
+				4C824BE72BDC3A9B009DB2FD /* TempConversionView.swift in Sources */,
+				4C824BED2BDC4138009DB2FD /* Utils.swift in Sources */,
+				4C824BEB2BDC3B5F009DB2FD /* PercentIncrease.swift in Sources */,
+				4C824BE92BDC3AF0009DB2FD /* PercentChangeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
