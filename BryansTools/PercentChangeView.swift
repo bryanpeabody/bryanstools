@@ -60,10 +60,9 @@ struct PercentChangeView: View {
             }
             .disabled(!isNumber(s: initialVal) && !isNumber(s: finalVal) ? true : false)
             .padding()
-            .background(isNumber(s: initialVal) && isNumber(s: finalVal) ? Color.blue : Color.gray)
-            .foregroundColor(Color.white)
-            .padding(20)
-            
+            .buttonStyle(.borderedProminent)
+            .controlSize(.extraLarge)
+            .buttonBorderShape(.roundedRectangle)
             
             //
             // Result output

@@ -58,9 +58,9 @@ struct TempConversionView: View {
                     handleConvertButtonPress(tempMeasurementSelection: tempMeasurementSelection, inputVal: inputVal)
                 }
                 .disabled(!isNumber(s: inputVal) ? true : false)
-                .padding()
-                .background(isNumber(s: inputVal) ? Color.blue : Color.gray)
-                .foregroundColor(Color.white)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.extraLarge)
+                .buttonBorderShape(.roundedRectangle)
             }
             
             //
