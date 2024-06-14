@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C824BE72BDC3A9B009DB2FD /* TempConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BE62BDC3A9B009DB2FD /* TempConversionView.swift */; };
-		4C824BE92BDC3AF0009DB2FD /* PercentChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BE82BDC3AF0009DB2FD /* PercentChangeView.swift */; };
-		4C824BEB2BDC3B5F009DB2FD /* PercentIncrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BEA2BDC3B5F009DB2FD /* PercentIncrease.swift */; };
 		4C824BED2BDC4138009DB2FD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C824BEC2BDC4138009DB2FD /* Utils.swift */; };
 		4CA184152BDC059B00C0F57F /* BryansToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA184142BDC059B00C0F57F /* BryansToolsApp.swift */; };
 		4CA184172BDC059B00C0F57F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA184162BDC059B00C0F57F /* ContentView.swift */; };
@@ -19,10 +17,8 @@
 
 /* Begin PBXFileReference section */
 		4C824BE62BDC3A9B009DB2FD /* TempConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempConversionView.swift; sourceTree = "<group>"; };
-		4C824BE82BDC3AF0009DB2FD /* PercentChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeView.swift; sourceTree = "<group>"; };
-		4C824BEA2BDC3B5F009DB2FD /* PercentIncrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentIncrease.swift; sourceTree = "<group>"; };
 		4C824BEC2BDC4138009DB2FD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		4CA184112BDC059B00C0F57F /* BryansTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BryansTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA184112BDC059B00C0F57F /* Bryan's Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bryan's Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA184142BDC059B00C0F57F /* BryansToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BryansToolsApp.swift; sourceTree = "<group>"; };
 		4CA184162BDC059B00C0F57F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4CA184182BDC059C00C0F57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +39,7 @@
 		4CA184082BDC059B00C0F57F = {
 			isa = PBXGroup;
 			children = (
-				4CA184132BDC059B00C0F57F /* BryansTools */,
+				4CA184132BDC059B00C0F57F /* Bryan's Tools */,
 				4CA184122BDC059B00C0F57F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,24 +47,22 @@
 		4CA184122BDC059B00C0F57F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CA184112BDC059B00C0F57F /* BryansTools.app */,
+				4CA184112BDC059B00C0F57F /* Bryan's Tools.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4CA184132BDC059B00C0F57F /* BryansTools */ = {
+		4CA184132BDC059B00C0F57F /* Bryan's Tools */ = {
 			isa = PBXGroup;
 			children = (
 				4CA184142BDC059B00C0F57F /* BryansToolsApp.swift */,
 				4CA184162BDC059B00C0F57F /* ContentView.swift */,
 				4C824BEC2BDC4138009DB2FD /* Utils.swift */,
-				4C824BE82BDC3AF0009DB2FD /* PercentChangeView.swift */,
-				4C824BEA2BDC3B5F009DB2FD /* PercentIncrease.swift */,
 				4C824BE62BDC3A9B009DB2FD /* TempConversionView.swift */,
 				4CA184182BDC059C00C0F57F /* Assets.xcassets */,
 				4CA1841A2BDC059C00C0F57F /* Preview Content */,
 			);
-			path = BryansTools;
+			path = "Bryan's Tools";
 			sourceTree = "<group>";
 		};
 		4CA1841A2BDC059C00C0F57F /* Preview Content */ = {
@@ -82,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CA184102BDC059B00C0F57F /* BryansTools */ = {
+		4CA184102BDC059B00C0F57F /* Bryan's Tools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CA1841F2BDC059C00C0F57F /* Build configuration list for PBXNativeTarget "BryansTools" */;
+			buildConfigurationList = 4CA1841F2BDC059C00C0F57F /* Build configuration list for PBXNativeTarget "Bryan's Tools" */;
 			buildPhases = (
 				4CA1840D2BDC059B00C0F57F /* Sources */,
 				4CA1840E2BDC059B00C0F57F /* Frameworks */,
@@ -94,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = BryansTools;
+			name = "Bryan's Tools";
 			productName = BryansTools;
-			productReference = 4CA184112BDC059B00C0F57F /* BryansTools.app */;
+			productReference = 4CA184112BDC059B00C0F57F /* Bryan's Tools.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CA1840C2BDC059B00C0F57F /* Build configuration list for PBXProject "BryansTools" */;
+			buildConfigurationList = 4CA1840C2BDC059B00C0F57F /* Build configuration list for PBXProject "Bryan's Tools" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CA184102BDC059B00C0F57F /* BryansTools */,
+				4CA184102BDC059B00C0F57F /* Bryan's Tools */,
 			);
 		};
 /* End PBXProject section */
@@ -153,8 +147,6 @@
 				4CA184152BDC059B00C0F57F /* BryansToolsApp.swift in Sources */,
 				4C824BE72BDC3A9B009DB2FD /* TempConversionView.swift in Sources */,
 				4C824BED2BDC4138009DB2FD /* Utils.swift in Sources */,
-				4C824BEB2BDC3B5F009DB2FD /* PercentIncrease.swift in Sources */,
-				4C824BE92BDC3AF0009DB2FD /* PercentChangeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BryansTools/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bryan's Tools/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BryansTools/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bryan's Tools/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -339,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CA1840C2BDC059B00C0F57F /* Build configuration list for PBXProject "BryansTools" */ = {
+		4CA1840C2BDC059B00C0F57F /* Build configuration list for PBXProject "Bryan's Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CA1841D2BDC059C00C0F57F /* Debug */,
@@ -348,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CA1841F2BDC059C00C0F57F /* Build configuration list for PBXNativeTarget "BryansTools" */ = {
+		4CA1841F2BDC059C00C0F57F /* Build configuration list for PBXNativeTarget "Bryan's Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CA184202BDC059C00C0F57F /* Debug */,

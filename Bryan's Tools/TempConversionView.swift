@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TempConversionView: View {
-    @State var result: String = ""
+    @State var result: String = "--"
     @State var tempMeasurementSelection: String = "C"
     @State var inputVal: String = ""
     
@@ -50,6 +50,9 @@ struct TempConversionView: View {
                     }
                 )
                 .pickerStyle(MenuPickerStyle())
+                .onChange(of: tempMeasurementSelection) {
+                    reset()
+                }
                 
                 //
                 // Convert button
@@ -70,7 +73,16 @@ struct TempConversionView: View {
                 .padding(50)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
+            
+            Button("Clear") {
+                reset()
+            }
         }
+    }
+    
+    func reset() {
+        inputVal = ""
+        result = "--"
     }
     
     //
@@ -87,4 +99,8 @@ struct TempConversionView: View {
             result = String(format: "%.0f", fahrenheit.converted(to: .celsius).value) + " °C"
         }
     }
+}
+
+#Preview {
+    ContentView()
 }
