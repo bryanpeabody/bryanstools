@@ -16,6 +16,11 @@ struct ContentView: View {
                     Image(systemName: "thermometer.sun.fill")
                     Text("Temp Conversion")
                 }
+             MeasurementsView()
+                .tabItem {
+                    Image(systemName: "ruler.fill")
+                    Text("Measurements")
+                }
         }
     }
 }

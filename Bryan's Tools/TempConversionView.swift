@@ -36,7 +36,11 @@ struct TempConversionView: View {
                     .cornerRadius(20)
                     .border(.primary)
                     .keyboardType(.numberPad)
-                
+                    .onChange(of: inputVal) {
+                        if inputVal.count == 0 {
+                            reset()
+                        }
+                    }
                 //
                 // C or F picker
                 //
@@ -50,9 +54,6 @@ struct TempConversionView: View {
                     }
                 )
                 .pickerStyle(MenuPickerStyle())
-                .onChange(of: tempMeasurementSelection) {
-                    reset()
-                }
                 
                 //
                 // Convert button
